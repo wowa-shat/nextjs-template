@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "tag": "Спецвыпуск",
+    "title": "Город в плоскости «Время»",
+    "author": "ЛЕОНИД САЛМИН",
+    "imageUrl": "/images/podcast-1.jpg",
+    "audioUrl": "/audio/21 Savage - a lot.mp3"
+  },
+  {
+    "id": "2",
+    "tag": "Спецвыпуск",
+    "title": "К вопросу о городской привязанности",
+    "author": "АЛЕКСЕЙ КУКАРИН",
+    "imageUrl": "/images/podcast-2.png",
+    "audioUrl": "/audio/N.E.R.D. - Spaz.mp3"
+  },
+  {
+    "id": "3",
+    "tag": "Спецвыпуск",
+    "title": "Ритм и городская мобильность",
+    "author": "ФЕДОР ТЕЛКОВ",
+    "imageUrl": "/images/podcast-3.svg",
+    "audioUrl": "/audio/Choker - Petrol Bliss.mp3"
+  },
+  {
+    "id": "4",
+    "tag": "Спецвыпуск",
+    "title": "Социальная география",
+    "author": "ВАЛЕРИЙ СЕМЁНОВ",
+    "imageUrl": "/images/podcast-4.svg",
+    "audioUrl": "/audio/Favored Nations - The Setup.mp3"
+  }
+]
