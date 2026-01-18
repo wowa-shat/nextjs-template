@@ -1,9 +1,67 @@
 @import "tailwindcss";
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-.link {
-  @apply text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors;
+body {
+  font-family: var(--font-helvetica), Arial, Helvetica, sans-serif;
+}
+
+.header.link {
+  @apply font-helvetica-regular text-2xl text-black;
+}
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: white;
+}
+
+.swiper-pagination {
+  bottom: 3rem !important;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0.75rem;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  width: 7.5rem;
+  height: 0.25rem;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 1;
+}
+
+/* Tailwind utilities for custom fonts */
+@utility font-druk {
+  font-family: var(--font-druk);
+}
+
+@utility font-helvetica-regular {
+  font-family: var(--font-helvetica-regular);
+}
+
+@utility font-helvetica-oblique {
+  font-family: var(--font-helvetica-oblique);
+}
+
+@utility font-helvetica-lightoblique {
+  font-family: var(--font-helvetica-lightoblique);
 }
