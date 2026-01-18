@@ -158,7 +158,7 @@ export default function PodcastCard({ episode, currentlyPlayingId, onPlayStateCh
                 <div className="w-1 h-4 bg-black" />
               </div>
             ) : (
-              <PlayIcon className="w-10 h-10" style={{ color: '#000000' }} />
+              <PlayIcon className="w-34px h-30px" style={{ color: '#000000' }} />
             )}
           </button>
         </div>
