@@ -51,15 +51,17 @@ const DemoSlider: React.FC<SliderProps> = ({ data }) => {
                   {/* Content */}
                   <div className="text-white font-normal relative z-10 h-full flex flex-col items-center justify-end text-center px-6 pb-36">
 
-                    <span className="bg-black font-normal mb-4 rounded-full px-4 py-1 text-2xl">
-                      {date}
-                    </span>
-                    
-                    <h1 className="text-white font-normal text-4xl md:text-8xl tracking-tight ">
+                    <div className="w-36 h-12 mb-8 bg-black rounded-full">
+                      <p className="flex items-center justify-center text-center h-full text-white font-helvetica-regular text-2xl">
+                        {date}
+                      </p>
+                    </div>
+
+                    <h1 className="text-white font-helvetica-regular text-8xl">
                       {title}
                     </h1>
 
-                    <p className="text-white font-normal mt-4 text-2xl">
+                    <p className="text-white font-helvetica-regular mt-8 text-2xl">
                       {description}
                     </p>
 
