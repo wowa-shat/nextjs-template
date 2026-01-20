@@ -111,7 +111,7 @@ export default function PodcastCard({ episode, currentlyPlayingId, onPlayStateCh
         </p>
 
         {/* Title */}
-        <h3 className="font-helvetica-regular text-white text-2xl md:text-[32px] leading-tight md:leading-[36px] mb-4 line-clamp-2">
+        <h3 className="font-helvetica-bold text-white text-2xl md:text-[32px] leading-tight md:leading-[36px] mb-4 line-clamp-2">
           {episode.title}
         </h3>
 

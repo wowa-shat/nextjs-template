@@ -21,6 +21,16 @@ export const helvetica_regular = localFont({
   display: 'swap',
 });
 
+export const helvetica_bold = localFont({
+  src: [
+    {
+      path: './public/fonts/Helvetica/helvetica_bold.otf'
+    }
+  ],
+  variable: '--font-helvetica-bold',
+  display: 'swap',
+});
+
 export const helvetica_oblique = localFont({
   src: [
     {
@@ -38,5 +48,15 @@ export const helvetica_lightoblique = localFont({
     }
   ],
   variable: '--font-helvetica-lightoblique',
+  display: 'swap',
+});
+
+export const helvetica_boldoblique = localFont({
+  src: [
+    {
+      path: './public/fonts/Helvetica/helvetica_boldoblique.otf'
+    }
+  ],
+  variable: '--font-helvetica-boldoblique',
   display: 'swap',
 });
