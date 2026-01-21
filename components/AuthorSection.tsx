@@ -18,7 +18,7 @@ export default function AuthorSection() {
                     <div className="absolute left-1/2 top-1/2 w-[758px] max-w-[90%] -translate-x-1/2 -translate-y-1/2">
                         <div className="relative w-full aspect-video bg-black">
                             <iframe
-                                src="https://rutube.ru/play/embed/9d91f48ce398620a3e3acb2ae8432884"
+                                src="https://rutube.ru/play/embed/9d91f48ce398620a3e3acb2ae8432884/?p=Wf4RoFXmwqrObsVCqFN8tg"
                                 allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
                                 allowFullScreen
                                 className="absolute inset-0 h-full w-full"
