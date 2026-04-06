@@ -1,7 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { drukTrial, helvetica_regular, helvetica_bold, helvetica_oblique, helvetica_lightoblique, helvetica_boldoblique } from '@/fonts';
-import Image from "next/image";
 
 export default function RootLayout({
   children,
@@ -13,16 +13,7 @@ export default function RootLayout({
       <body className="bg-white antialiased">
         <Header />
         {children}
-        <div className="w-full">
-          <Image
-            src="/images/screens/footer.png"
-            alt=""
-            width={1920}
-            height={609}
-            className="w-full h-auto"
-            priority
-          />
-        </div>
+        <Footer />
       </body>
     </html>
   );
